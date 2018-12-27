@@ -54,6 +54,10 @@
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
+extern DMA_HandleTypeDef hdma_usart1_rx;
+
+extern DMA_HandleTypeDef hdma_usart1_tx;
+
 extern DMA_HandleTypeDef hdma_usart6_tx;
 
 extern DMA_HandleTypeDef hdma_usart6_rx;
